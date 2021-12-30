@@ -54,4 +54,4 @@ yarn typeorm migration:create -n CreateCategories
 yarn typeorm migration:run
 yarn typeorm migration:revert
 
-docker compose start
+docker-compose start

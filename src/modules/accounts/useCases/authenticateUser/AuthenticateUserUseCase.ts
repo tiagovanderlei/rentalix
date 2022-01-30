@@ -6,7 +6,7 @@ import { IUsersRepository } from "../../repositories/IUsersRepository";
 
 interface IRequest {
   email: string;
-  name: string;
+  password: string;
 }
 
 interface IResponse {
@@ -30,7 +30,7 @@ class AuthenticateUserUseCase {
     const passwordMatch = await compare(password, user.password);
     if (!passwordMatch) throw new Error("Email or password incorrect");
 
-    const token = sign({}, "ifdsfjsdhfjsdfjsdfhsd", {
+    const token = sign({}, "abcde", {
       subject: user.id,
       expiresIn: "1d",
     });

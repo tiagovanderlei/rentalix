@@ -1,0 +1,8 @@
+POST http://localhost:3333/specifications HTTP/1.1
+content-type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDM1NTEzNjAsImV4cCI6MTY0MzYzNzc2MCwic3ViIjoiOWE2NDFhMjctM2YxZC00NDY5LWFkZTYtMjQzMWRhYmYwMGM2In0.8wmw7IJtNv1erNTar-1frri1GSwRDVPP8IYqts6CEco 
+
+{
+  "name": "spec4", 
+  "description": "specifications"
+}

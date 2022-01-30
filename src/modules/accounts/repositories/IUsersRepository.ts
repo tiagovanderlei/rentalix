@@ -16,6 +16,7 @@ interface IUsersRepository {
     driver_licence,
   }: ICreateUserDTO): Promise<void>;
   findByEmail(email: string): Promise<User>;
+  findById(userId: string): Promise<User>;
 }
 
 export { IUsersRepository, ICreateUserDTO };

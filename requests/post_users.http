@@ -1,0 +1,10 @@
+POST http://localhost:3333/users HTTP/1.1
+content-type: application/json
+
+{
+  "name": "Tiago", 
+  "username": "tiago.arruda",
+  "email": "tiago2.arruda@gmail.com",
+  "password": "tiago.arruda",
+  "driver_licence": "132456"
+}

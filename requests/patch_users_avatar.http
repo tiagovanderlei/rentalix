@@ -1,0 +1,15 @@
+
+PATCH http://localhost:3333/users/avatar HTTP/1.1
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDM1OTE5ODcsImV4cCI6MTY0MzY3ODM4Nywic3ViIjoiOWE2NDFhMjctM2YxZC00NDY5LWFkZTYtMjQzMWRhYmYwMGM2In0.ryG3ocd1C8OALbtQnL29Sd6Wie1U2D7aaVJVBhc8rQE
+Content-Type: multipart/form-data; boundary=----WebKitFormBoundary7MA4YWxkTrZu0gW
+
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="text"
+
+title
+------WebKitFormBoundary7MA4YWxkTrZu0gW
+Content-Disposition: form-data; name="file"; filename="1.png"
+Content-Type: image/png
+
+< ./1.png
+------WebKitFormBoundary7MA4YWxkTrZu0gW--

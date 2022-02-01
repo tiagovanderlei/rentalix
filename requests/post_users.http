@@ -6,5 +6,5 @@ content-type: application/json
   "username": "tiago.arruda",
   "email": "tiago2.arruda@gmail.com",
   "password": "tiago.arruda",
-  "driver_licence": "132456"
+  "driver_license": "132456"
 }
